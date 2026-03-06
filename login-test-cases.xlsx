@@ -1,2 +1,6 @@
-Test ID	Scenario	Steps	Expected Result
-TC001	Login with valid credentials	Enter username/password	User logged in
+| Test ID | Test Scenario                | Steps                                                                      | Expected Result                               | Actual Result | Status       |
+| ------- | ---------------------------- | -------------------------------------------------------------------------- | --------------------------------------------- | ------------- | ------------ |
+| TC001   | Login with valid credentials | 1. Open login page 2. Enter username/password 3. Click login               | User should be logged in successfully         | Pending       | Not Executed |
+| TC002   | Login with invalid password  | 1. Open login page 2. Enter valid username + wrong password 3. Click login | Error message “Invalid credentials” displayed | Pending       | Not Executed |
+| TC003   | Blank username               | 1. Open login page 2. Leave username blank 3. Enter password & click login | Error “Username required” displayed           | Pending       | Not Executed |
+| TC004   | Forgot password link         | 1. Click “Forgot Password” 2. Enter email 3. Submit                        | Password reset email sent                     | Pending       | Not Executed |
