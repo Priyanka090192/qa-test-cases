@@ -1,0 +1,2 @@
+Test ID	Scenario	Steps	Expected Result
+TC001	Login with valid credentials	Enter username/password	User logged in
